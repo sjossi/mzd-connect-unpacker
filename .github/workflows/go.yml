@@ -28,7 +28,7 @@ jobs:
       run: go get .
 
     - name: Build
-      run: go build -v . -o mzdtool-${{ matrix.os }}
+      run: go build -v -o mzdtool-${{ matrix.os }} .
 
     # Since the data is not available, the tests can currently not run on GitHub
     # - name: Test
