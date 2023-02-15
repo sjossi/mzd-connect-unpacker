@@ -33,3 +33,9 @@ jobs:
     # Since the data is not available, the tests can currently not run on GitHub
     # - name: Test
     #  run: go test -v ./unpacker
+    
+    - name: Upload Go test results
+      uses: actions/upload-artifact@v3
+      with:
+        name: Build artifacts
+        path: mzdtool-${{ matrix.os }}
