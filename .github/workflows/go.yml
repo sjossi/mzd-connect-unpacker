@@ -34,8 +34,8 @@ jobs:
     # - name: Test
     #  run: go test -v ./unpacker
     
-    - name: Upload Go test results
+    - name: Upload Go Build Artifacts
       uses: actions/upload-artifact@v3
       with:
         name: Build artifacts
-        path: mzdtool-${{ matrix.os }}
+        path: mzd-connect-tool
