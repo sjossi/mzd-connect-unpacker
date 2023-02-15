@@ -1,4 +1,4 @@
-# Mazda CMU Updater
+# Mazda CMU Update Utility
 [![Go](https://github.com/sjossi/mzd-connect-unpacker/actions/workflows/go.yml/badge.svg)](https://github.com/sjossi/mzd-connect-unpacker/actions/workflows/go.yml)
 
 All features are written as library first and then the CLI is just convenience.
